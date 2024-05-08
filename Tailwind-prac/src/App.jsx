@@ -14,9 +14,9 @@ function App() {
      <div style={{backgroundColor: "green"}}>HI</div>
     </div>
 
-    <div className="flex">
-     <div style={{backgroundColor: "red"}}>HI</div>
-     <div style={{backgroundColor: "yellow"}}>HI</div>
+    <div className="flex justify-center">
+     <div className='bg-red-500'>HI</div>
+     <div className='bg-yellow-500'>HI</div>
      <div style={{backgroundColor: "green"}}>HI</div>
     </div>
       
