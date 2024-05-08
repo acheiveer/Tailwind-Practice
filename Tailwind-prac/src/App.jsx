@@ -8,6 +8,17 @@ function App() {
 
   return (
     <>
+    <div style={{display:"flex", justifyContent:"center"}}>
+     <div style={{backgroundColor: "red"}}>HI</div>
+     <div style={{backgroundColor: "yellow"}}>HI</div>
+     <div style={{backgroundColor: "green"}}>HI</div>
+    </div>
+
+    <div className="flex">
+     <div style={{backgroundColor: "red"}}>HI</div>
+     <div style={{backgroundColor: "yellow"}}>HI</div>
+     <div style={{backgroundColor: "green"}}>HI</div>
+    </div>
       
     </>
   )
