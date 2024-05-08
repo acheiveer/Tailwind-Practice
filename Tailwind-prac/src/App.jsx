@@ -8,17 +8,18 @@ function App() {
 
   return (
     <>
-    <div style={{display:"flex", justifyContent:"center"}}>
-     <div style={{backgroundColor: "red"}}>HI</div>
-     <div style={{backgroundColor: "yellow"}}>HI</div>
-     <div style={{backgroundColor: "green"}}>HI</div>
+    <div className="grid grid-cols-10 ">
+     <div className='bg-red-500 col-span-4'>HI</div>
+     <div className='bg-yellow-500 col-span-4'>HI</div>
+     <div className='bg-green-500 col-span-2'>HI</div>
     </div>
 
-    <div className="flex justify-center">
-     <div className='bg-red-500'>HI</div>
-     <div className='bg-yellow-500'>HI</div>
-     <div style={{backgroundColor: "green"}}>HI</div>
-    </div>
+    {/* or we can also acheive this using flex by the below method*/}
+    {/* <div className="flex">
+     <div className='bg-red-500 w-[40%]'>HI</div>
+     <div className='bg-yellow-500 w-[40%]'>HI</div>
+     <div className='bg-green-500 w-[20%]'>HI</div>
+    </div> */}
       
     </>
   )
